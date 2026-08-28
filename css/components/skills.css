@@ -1,0 +1,14 @@
+/* Skills - visual technology card grid */
+#skills .section-header { margin-bottom: 2.5rem; }
+.skills-intro { max-width: 680px; margin: 1rem auto 0; color: var(--text-secondary); font-size: 1rem; line-height: 1.7; }
+.skills-grid { width: 100%; max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, minmax(120px, 1fr)); gap: 1.25rem; align-items: stretch; }
+.skill-card { min-height: 150px; padding: 1.35rem 1rem 1.1rem; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; text-align: center; border-radius: 12px; background: rgba(255,255,255,.82); border: 1px solid rgba(99,102,241,.10); box-shadow: 0 8px 25px rgba(30,41,59,.08); transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+.skill-card img { width: 58px; height: 58px; object-fit: contain; display: block; }
+.skill-card span { width: 100%; padding-top: .85rem; border-top: 1px solid rgba(100,116,139,.16); color: #4b5563; font-size: .95rem; font-weight: 600; }
+.skill-card:hover { transform: translateY(-6px); border-color: rgba(99,102,241,.35); box-shadow: 0 14px 32px rgba(30,41,59,.14); }
+body.dark-mode .skill-card { background: rgba(30,41,59,.78); border-color: rgba(255,255,255,.09); }
+body.dark-mode .skill-card span { color: rgba(255,255,255,.84); border-top-color: rgba(255,255,255,.10); }
+body.dark-mode .skills-intro { color: rgba(255,255,255,.70); }
+@media (max-width:1100px){.skills-grid{grid-template-columns:repeat(5,minmax(120px,1fr));}}
+@media (max-width:850px){.skills-grid{grid-template-columns:repeat(4,minmax(110px,1fr));gap:1rem;}}
+@media (max-width:600px){.skills-grid{grid-template-columns:repeat(2,minmax(120px,1fr));}.skill-card{min-height:135px;}}

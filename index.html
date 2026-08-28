@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rishitha Dasari — Computer Science Engineering student, AI/ML and full-stack developer." />
+    <!-- TIÊU ĐỀ MỚI -->
+    <title>Rishitha Dasari - AI/ML & Full-Stack Developer</title>
+    <link rel="canonical" href="#">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rishitha Dasari - Portfolio">
+    <meta property="og:description" content="Computer Science Engineering student focused on AI/ML, web development and software engineering.">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="assets/tech-preview.svg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rishitha Dasari - AI/ML & Full-Stack Developer">
+    <meta name="twitter:description" content="Portfolio của Rishitha Dasari - Sinh viên Kỹ thuật Phần mềm (TDTU).">
+    <meta name="twitter:image" content="assets/tech-preview.svg">
+
+    <!-- THAY ICON MỚI (NẾU CÓ) -->
+    <link rel="icon" type="image/jpeg" href="assets/icon.jpg" />
+
+    <!-- THÊM FONT MỚI TỪ GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- LINK CSS VÀ FONT AWESOME -->
+    <link rel="stylesheet" href="css/components/base.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/hero.css" />
+    <link rel="stylesheet" href="css/components/music-player.css" />
+    <link rel="stylesheet" href="css/components/sections.css?v=mobile-20260828-2" />
+    <link rel="stylesheet" href="css/components/about.css?v=mobile-20260828-2" />
+    <link rel="stylesheet" href="css/components/skills.css" />
+    <link rel="stylesheet" href="css/components/projects.css" />
+    <link rel="stylesheet" href="css/components/experience.css" />
+    <link rel="stylesheet" href="css/components/contact.css" />
+    <link rel="stylesheet" href="css/components/animations.css" />
+    <link rel="stylesheet" href="css/components/awards.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
+    <link rel="stylesheet" href="css/components/wakatime.css" />
+    <link rel="stylesheet" href="css/components/featured-projects.css?v=mobile-20260828" />
+    <link rel="stylesheet" href="css/components/interactive-skills.css" />
+    <link rel="stylesheet" href="css/components/theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .theme-switcher-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-toggle {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 600;
+            transition: background-color 0.3s, border-color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .dropdown-toggle:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: var(--bg-card);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 0.5rem;
+            border: 1px solid var(--border-color);
+            padding: 0.5rem 0;
+            right: 0;
+            bottom: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        .dropdown-menu a {
+            color: var(--text-primary);
+            padding: 0.75rem 1rem;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            transition: background-color 0.2s;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .dropdown-menu.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Thanh tiến trình cuộn giữ nguyên -->
+    <div class="scroll-progress-bar"></div>
+
+    <header id="header-placeholder" class="main-header"></header>
+
+    <main>
+        <!-- ====================================================== -->
+        <!-- Section 1: Hero (THAY ĐỔI LỚN) -->
+        <!-- ====================================================== -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="container hero-container">
+                <!-- Profile Card (bên trái) -->
+                <div class="profile-card-container animate-on-scroll">
+                    <div class="profile-card glass-card">
+                        <div class="profile-header">
+                            <div class="avatar-wrapper">
+                                <div class="avatar tech-avatar" aria-label="Rishitha Dasari"><i class="fas fa-code"></i></div>
+                                <div class="status-indicator online"></div>
+                            </div>
+                            <div class="profile-info">
+                                <h2>Rishitha Dasari</h2>
+                                <p class="job-title">AI/ML & Full-Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="profile-details">
+                            <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
+                            <p><i class="fas fa-calendar-alt"></i> B.E. 2023 – 2027</p>
+                            <p><i class="fas fa-briefcase"></i> Vasavi College of Engineering</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Hero Text Content (ở giữa) -->
+                <div class="hero-text-content">
+                    <div class="welcome-badge animate-on-scroll">Welcome to my Portfolio</div>
+                    <h1 class="animate-on-scroll">
+                        Building Digital<br>
+                        <span class="gradient-text">Experiences</span>
+                    </h1>
+                    <p style="color: white;" class="animate-on-scroll">A passionate Computer Science Engineering student
+                        specializing in creating
+                        efficient, user-centric web applications.</p>
+                    <div class="hero-buttons animate-on-scroll">
+                        <a href="#projects" class="btn btn-primary">View my projects <i
+                                class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-secondary">Get in touch</a>
+                    </div>
+                    <div class="social-links animate-on-scroll">
+                        <a style="color: white;" href="https://www.linkedin.com/in/rishithadasari" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a style="color: white;" href="https://github.com/" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a style="color: white;" href="mailto:dasaririshithapatel.6@gmail.com" aria-label="Email"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down-indicator"></div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 2: About Me (CẬP NHẬT) -->
+        <!-- ====================================================== -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">My personal story</div>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image-wrapper animate-on-scroll">
+                        <div class="about-tech-visual" aria-label="Technology illustration">
+                                <div class="code-window">
+                                    <div class="window-dots"><span></span><span></span><span></span></div>
+                                    <div class="code-line"><span class="code-keyword">const</span> developer = <span class="code-string">"Rishitha"</span>;</div>
+                                    <div class="code-line"><span class="code-keyword">const</span> focus = [<span class="code-string">"AI"</span>, <span class="code-string">"ML"</span>, <span class="code-string">"Full-Stack"</span>];</div>
+                                    <div class="code-line">build(<span class="code-string">"useful products"</span>);</div>
+                                </div>
+                                <div class="floating-tech-icons">
+                                    <img src="https://cdn.simpleicons.org/python" alt="Python">
+                                    <img src="https://cdn.simpleicons.org/react" alt="React">
+                                    <img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js">
+                                    <img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB">
+                                </div>
+                            </div>
+                        <div class="status-tag"><span class="green-dot"></span> Open to opportunities</div>
+                    </div>
+                    <div class="about-text-content animate-on-scroll">
+                        <p>I am a Computer Science Engineering student at Vasavi College of Engineering, with a strong interest in Artificial Intelligence, Machine Learning and full-stack development.</p>
+                        <p>I enjoy solving problems, building practical applications and exploring technologies that turn ideas into useful products. My experience includes AI/ML projects, web applications and real-time systems.</p>
+                        <div class="info-box-wrapper glass-card">
+                            <div class="info-box">
+                                <div><span class="info-label">Name</span><p>Rishitha Dasari</p></div>
+                                <div><span class="info-label">Email</span><p>dasaririshithapatel.6@gmail.com</p></div>
+                                <div><span class="info-label">Education</span><p>B.E. Computer Science</p></div>
+                                <div><span class="info-label">CGPA</span><p class="available-status">9.19</p></div>
+                            </div>
+                            <a href="download-resume.html" class="btn-download-resume">Download Resume <i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 3: Skills -->
+        <!-- ====================================================== -->
+        <section id="skills" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">My Skills</div>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="title-underline"></div>
+                    <p class="skills-intro">Technologies and tools I use to build AI-powered, full-stack applications.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/c" alt="C"><span>C</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/cplusplus" alt="C++"><span>C++</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/python" alt="Python"><span>Python</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/dotnet" alt="C#"><span>C#</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/javascript" alt="JavaScript"><span>JavaScript</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/html5" alt="HTML5"><span>HTML</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/css" alt="CSS3"><span>CSS</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/react" alt="React"><span>React</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js"><span>Node.js</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/express" alt="Express.js"><span>Express.js</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/git" alt="Git"><span>Git</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/github" alt="GitHub"><span>GitHub</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code"><span>VS Code</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/mysql" alt="SQL"><span>SQL</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB"><span>MongoDB</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/googlegemini" alt="Generative AI"><span>Generative AI</span></div>
+                    <div class="skill-card animate-on-scroll"><img src="https://cdn.simpleicons.org/langchain" alt="Agentic AI"><span>Agentic AI</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 4: Featured Works (NEW ALTERNATING LAYOUT) -->
+        <!-- ====================================================== -->
+        <section id="projects" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll"><div class="section-badge">Selected work</div><h2 class="section-title">Featured Projects</h2><div class="title-underline"></div></div>
+                <div class="project-showcase-grid animate-on-scroll">
+                    <div class="showcase-card"><div class="showcase-header"><span>AI / Real-Time System</span></div><div class="showcase-content"><div class="text-features"><h1>REAL-TIME<br>POLL AUTOMATION</h1><h4 class="feature-title">FEATURES</h4><ul><li>Real-time poll creation, participation and result management.</li><li>Dynamic updates and reliable poll data handling.</li><li>Automated poll generation workflows for live sessions.</li></ul></div><div class="project-visual"><i class="fas fa-square-poll-vertical"></i><span>Live Poll Automation</span></div></div></div>
+                    <div class="details-column"><h2>AI-Powered Real-Time Poll Automation System <a class="project-title-link" href="https://github.com/rishithadasari2005/poll-automation" target="_blank" rel="noopener noreferrer" aria-label="Poll Automation GitHub repository" title="GitHub"><i class="fab fa-github"></i></a></h2><p class="project-category">AI, Web Development, Real-Time Systems</p><div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>Generative AI</span></div><div class="description-box glass-card"><p>Developed during an IIT Ropar internship to streamline poll creation, participation and result management during live sessions.</p></div></div>
+                </div>
+                <div class="project-showcase-grid layout-reversed animate-on-scroll">
+                    <div class="showcase-card"><div class="showcase-header"><span>Machine Learning</span></div><div class="showcase-content"><div class="text-features"><h1>CROP YIELD<br>PREDICTION</h1><h4 class="feature-title">FEATURES</h4><ul><li>Forecasts crop yield using agricultural and environmental data.</li><li>Analyzes factors influencing crop productivity and model performance.</li><li>Uses real-time weather data for prediction and crop recommendations.</li></ul></div><div class="project-visual"><i class="fas fa-seedling"></i><span>Yield Forecasting</span></div></div></div>
+                    <div class="details-column"><h2>Crop Yield Prediction System <a class="project-title-link" href="https://github.com/rishithadasari2005/HarvestPro" target="_blank" rel="noopener noreferrer" aria-label="HarvestPro GitHub repository" title="GitHub"><i class="fab fa-github"></i></a></h2><p class="project-category">Machine Learning, Data Analysis</p><div class="project-tags"><span>Python</span><span>Scikit-learn</span><span>Random Forest</span><span>Weather API</span></div><div class="description-box glass-card"><p>A machine learning application for crop yield forecasting and crop recommendation using agricultural, environmental and weather data.</p></div></div>
+                </div>
+                <div class="project-showcase-grid animate-on-scroll">
+                    <div class="showcase-card"><div class="showcase-header"><span>Full-Stack Web App</span></div><div class="showcase-content"><div class="text-features"><h1>HEALTH<br>PLUS</h1><h4 class="feature-title">FEATURES</h4><ul><li>Online pharmacy experience for browsing healthcare products.</li><li>Product search, categorization and cart management.</li><li>Responsive and user-friendly interface.</li></ul></div><div class="project-visual"><i class="fas fa-heart-pulse"></i><span>Online Pharmacy</span></div></div></div>
+                    <div class="details-column"><h2>Health Plus <a class="project-title-link" href="https://github.com/rishithadasari2005/Health-Plus" target="_blank" rel="noopener noreferrer" aria-label="Health Plus GitHub repository" title="GitHub"><i class="fab fa-github"></i></a></h2><p class="project-category">Web Development, E-Commerce</p><div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span><span>JavaScript</span></div><div class="description-box glass-card"><p>An online pharmacy application designed to make browsing and purchasing healthcare products convenient and accessible.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 5: Awards & Achievements -->
+        <!-- ====================================================== -->
+        <section id="awards" class="content-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge">Recognition & Accomplishments</div>
+                    <h2 class="section-title">Awards & Achievements</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="awards-grid">
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/flipkart-grid.svg" alt="Flipkart GRID 7.0 achievement"></div>
+                        <div class="award-content"><span class="award-label">Competition</span><h3>Flipkart GRID 7.0 Semi-Finalist</h3><p>Advanced to the semi-finals among 150,000+ participants through multiple technical elimination rounds.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/codevita.svg" alt="TCS CodeVita 2025 achievement"></div>
+                        <div class="award-content"><span class="award-label">Coding Competition</span><h3>TCS CodeVita 2025 Round 2 Qualifier</h3><p>Selected among top performers in the global coding competition, demonstrating strong problem-solving and algorithmic skills.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/mckinsey.svg" alt="McKinsey Forward Program achievement"></div>
+                        <div class="award-content"><span class="award-label">Leadership Program</span><h3>McKinsey Forward Program 2025</h3><p>Selected for a competitive global program focused on structured problem-solving and leadership.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/nptel-java.svg" alt="NPTEL Java Top 5 percent achievement"></div>
+                        <div class="award-content"><span class="award-label">Academic Achievement</span><h3>NPTEL Java Topper — Top 5%</h3><p>Ranked in the top percentile through IIT-conducted proctored examinations.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/infosys-pragati.svg" alt="Infosys Springboard Pragati Cohort 5 achievement"></div>
+                        <div class="award-content"><span class="award-label">Technical Training</span><h3>Infosys Springboard Pragati Cohort 5</h3><p>Chosen among top candidates nationwide for intensive technical training.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/hackathons.svg" alt="Hackathon participation achievement"></div>
+                        <div class="award-content"><span class="award-label">Hackathons</span><h3>Smart India Hackathon, ISRO & Innovasia</h3><p>Participated in multiple hackathons, applying technical skills to practical problem-solving challenges.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/accenture-go-for-gold.svg" alt="Accenture Go for Gold achievement"></div>
+                        <div class="award-content"><span class="award-label">Professional Program</span><h3>Accenture Go for Gold</h3><p>Completed the Accenture Go for Gold program as part of my professional development journey.</p></div>
+                    </div>
+                    <div class="award-card glass-card animate-on-scroll">
+                        <div class="award-image"><img src="assets/achievements/she-plus-tech-coursera.svg" alt="She Plus Tech x Coursera Scholarship AI Pathway"></div>
+                        <div class="award-content"><span class="award-label">Scholarship</span><h3>She Plus Tech x Coursera Scholarship (AI Pathway)</h3><p>Awarded a scholarship for completing an AI-focused learning pathway under Coursera.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================================================== -->
+        <!-- Section 6: Experience (ĐÃ CẬP NHẬT CHO BẠN) -->
+        <!-- ====================================================== -->
+        <section id="experience" class="content-section"><div class="container"><div class="section-header animate-on-scroll"><div class="section-badge">My professional journey</div><h2 class="section-title">Experience & Education</h2><div class="title-underline"></div></div><div class="timeline">
+<div class="timeline-item animate-on-scroll"><div class="timeline-dot"></div><div class="timeline-content glass-card"><h3>B.E. in Computer Science Engineering</h3><p class="timeline-meta">Vasavi College of Engineering | 2023 – 2027</p><p>Currently pursuing a Computer Science Engineering degree with a CGPA of 9.19.</p></div></div>
+<div class="timeline-item animate-on-scroll"><div class="timeline-dot"></div><div class="timeline-content glass-card"><h3>Real-Time Poll Automation System</h3><p class="timeline-meta">IIT Ropar | May 2025 – July 2025</p><p>Developed a real-time poll automation system for live sessions, improving poll generation workflows, dynamic updates and reliable result handling.</p></div></div>
+<div class="timeline-item animate-on-scroll"><div class="timeline-dot"></div><div class="timeline-content glass-card"><h3>GeeksforGeeks — Campus Mantri</h3><p class="timeline-meta">Vasavi College of Engineering | Apr 2025 – May 2025</p><p>Contributed to the student technical community as a campus representative.</p></div></div>
+</div></div></section>
+
+        <!-- ====================================================== -->
+        <!-- Section 7: Contact (ĐÃ CẬP NHẬT CHO BẠN) -->
+        <!-- ====================================================== -->
+        <section id="contact" class="content-section"><div class="container"><div class="section-header animate-on-scroll"><div class="section-badge">Let's connect</div><h2 class="section-title">Get In Touch</h2><div class="title-underline"></div></div><div class="contact-grid"><div class="contact-info-wrapper glass-card animate-on-scroll"><h3>Contact Information</h3><div class="contact-item"><i class="fas fa-envelope"></i><div><span>Email</span><a href="mailto:dasaririshithapatel.6@gmail.com">dasaririshithapatel.6@gmail.com</a></div></div><div class="contact-item"><i class="fab fa-linkedin"></i><div><span>LinkedIn</span><a href="https://www.linkedin.com/in/rishithadasari" target="_blank">LinkedIn Profile</a></div></div><div class="contact-item"><i class="fab fa-github"></i><div><span>GitHub</span><a href="https://github.com/" target="_blank">GitHub Profile</a></div></div><h3 class="status-title">Current Status</h3><div class="contact-status"><span class="green-dot"></span> Open to internship opportunities</div></div><form class="contact-form glass-card animate-on-scroll" action="https://formspree.io" method="POST"><h3>Send Me a Message</h3><div class="form-group"><input type="text" name="name" placeholder="Your Name" required></div><div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div><div class="form-group"><input type="text" name="subject" placeholder="Subject" required></div><div class="form-group"><textarea name="message" rows="5" placeholder="Your Message" required></textarea></div><button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button></form></div></div></section>
+    </main>
+    <footer id="footer-placeholder" class="main-footer"></footer>
+
+    <div id="pdfModal" class="pdf-modal-overlay">
+        <div class="pdf-modal-container">
+            <div class="pdf-modal-header">
+                <h3 id="pdfModalTitle">Certificate Viewer</h3>
+                <button class="pdf-modal-close">&times;</button>
+            </div>
+            <div class="pdf-modal-body">
+                <div class="zoom-container">
+                    <img id="certImage" src="" alt="Certificate">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+    <!-- === TẢI CÁC THÀNH PHẦN CHUNG (Header, Footer) === -->
+    <script src="js/load-components.js?v=3"></script>
+    <!-- === TẢI CÁC SECTION CHUNG === -->
+    <script src="js/load-sections.js"></script>
+    <script>
+        // Christmas specific scripts
+        document.addEventListener('DOMContentLoaded', () => {
+            // Snowfall
+            const snowContainer = document.querySelector('.snow-container');
+            if (snowContainer) {
+                for (let i = 0; i < 150; i++) {
+                    const snowflake = document.createElement('div');
+                    snowflake.classList.add('snowflake');
+                    const size = Math.random() * 4 + 2;
+                    snowflake.style.width = size + 'px';
+                    snowflake.style.height = size + 'px';
+                    snowflake.style.left = Math.random() * 100 + 'vw';
+                    snowflake.style.animationDelay = Math.random() * -10 + 's';
+                    snowflake.style.animationDuration = 5 + Math.random() * 5 + 's';
+                    snowflake.style.opacity = Math.random();
+                    snowContainer.appendChild(snowflake);
+                }
+            }
+
+
+            const dropdownToggle = document.querySelector('.theme-switcher-dropdown .dropdown-toggle');
+            const dropdownMenu = document.querySelector('.theme-switcher-dropdown .dropdown-menu');
+
+            if (dropdownToggle && dropdownMenu) {
+                dropdownToggle.addEventListener('click', () => {
+                    dropdownMenu.classList.toggle('show');
+                });
+
+                window.addEventListener('click', (event) => {
+                    if (!event.target.matches('.dropdown-toggle') && !event.target.matches('.dropdown-toggle i')) {
+                        if (dropdownMenu.classList.contains('show')) {
+                            dropdownMenu.classList.remove('show');
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
