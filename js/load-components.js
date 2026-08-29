@@ -29,9 +29,10 @@ async function loadComponent(elementId, filePath, isHeader) {
     // Xử lý đường dẫn tương đối cho thư mục con (VD: nếu trang nằm trong /blog/)
     const isSubFolder = window.location.pathname.includes("/blog/") || window.location.pathname.includes("/projects/");
     const fetchPath = isSubFolder ? "../" + filePath : filePath;
+    const cacheBustPath = `${fetchPath}?v=menu-icon-20260829`;
 
     try {
-        const response = await fetch(fetchPath);
+        const response = await fetch(cacheBustPath, { cache: 'no-store' });
         if (response.ok) {
             let html = await response.text();
             

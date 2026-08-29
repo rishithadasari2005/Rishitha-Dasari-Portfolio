@@ -33,13 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggleBtn = document.getElementById('theme-toggle');
 
     if (themeToggleBtn) {
-        // Lấy theme đã lưu từ lần truy cập trước (nếu có)
-        const currentTheme = localStorage.getItem('theme');
+        // Mặc định là light mode khi chưa có lựa chọn nào được lưu
+        const currentTheme = localStorage.getItem('theme') || 'light-mode';
+        const isLightMode = currentTheme === 'light-mode';
 
-        // Áp dụng theme đã lưu khi tải trang
-        if (currentTheme) {
-            document.body.classList.add(currentTheme);
+        if (!localStorage.getItem('theme')) {
+            localStorage.setItem('theme', 'light-mode');
         }
+
+        document.body.classList.toggle('light-mode', isLightMode);
 
         // Gắn sự kiện click cho nút chuyển theme
         themeToggleBtn.addEventListener('click', () => {

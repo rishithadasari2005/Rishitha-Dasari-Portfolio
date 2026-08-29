@@ -109,6 +109,23 @@
 </head>
 
 <body>
+    <script>
+        (function () {
+            try {
+                const savedTheme = localStorage.getItem('theme');
+                const isLightMode = savedTheme ? savedTheme === 'light-mode' : true;
+
+                if (!savedTheme) {
+                    localStorage.setItem('theme', 'light-mode');
+                }
+
+                document.body.classList.toggle('light-mode', isLightMode);
+            } catch (error) {
+                document.body.classList.add('light-mode');
+            }
+        })();
+    </script>
+
     <!-- Thanh tiến trình cuộn giữ nguyên -->
     <div class="scroll-progress-bar"></div>
 

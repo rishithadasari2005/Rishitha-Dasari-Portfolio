@@ -84,8 +84,14 @@ window.initThemeToggle = function() {
     const themeToggleBtn = document.getElementById('theme-toggle');
     const body = document.body;
 
-    const savedTheme = localStorage.getItem('theme');
-    body.classList.toggle('light-mode', savedTheme !== 'dark-mode');
+    const savedTheme = localStorage.getItem('theme') || 'light-mode';
+    const isLightMode = savedTheme === 'light-mode';
+
+    if (!localStorage.getItem('theme')) {
+        localStorage.setItem('theme', 'light-mode');
+    }
+
+    body.classList.toggle('light-mode', isLightMode);
 
     if (themeToggleBtn) {
         const newBtn = themeToggleBtn.cloneNode(true);
