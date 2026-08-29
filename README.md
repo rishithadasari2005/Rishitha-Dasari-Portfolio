@@ -27,10 +27,6 @@ This portfolio has been rebuilt from the ground up to incorporate modern web fea
     *   **Scroll-Triggered Animations:** Elements gracefully fade and slide into view as the user scrolls down the page, powered by `IntersectionObserver`.
     *   **Live GitHub Skill Bars:** The "Technical Stack" section dynamically fetches data from the GitHub API to calculate and display skill percentages, providing a real-time reflection of my coding activity.
     *   **Interactive Alternating Project Layout:** Featured projects are presented in an engaging, alternating showcase layout that highlights key features and visuals.
-*   **📚 Integrated Blog System:**
-    *   A dedicated **Blog Section** on the main page previews the latest articles.
-    *   Separate, fully-styled pages for the main blog (`blog.html`) and individual posts (`post-*.html`) ensure a consistent experience.
-*   **🎵 Embedded Music Player:** A subtle, fixed music player widget provides background music with basic controls (play/pause, next/previous).
 *   **📱 Fully Responsive Design:** Meticulously crafted with custom CSS (Flexbox & Grid) to ensure a flawless experience on all devices, from large desktops to mobile phones.
 
 ## 🛠️ Technology Stack
