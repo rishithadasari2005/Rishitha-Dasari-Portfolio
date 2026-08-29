@@ -68,15 +68,13 @@
         grid-template-columns: 1fr;
     }
 
-    .main-nav {
-        display: none;
-        /* Hoặc có thể làm menu hamburger */
-    }
 }
 
 @media (max-width: 768px) {
     .main-header {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
         gap: 0.5rem;
         padding: 0.75rem;
         border-radius: 1rem;

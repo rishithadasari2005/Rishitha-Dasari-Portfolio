@@ -95,6 +95,10 @@
 }
 
 @media (max-width: 600px) {
+    .hero-section {
+        padding: 4rem 0 3rem;
+    }
+
     .hero-text-content h1 {
         font-size: clamp(2.4rem, 12vw, 3.5rem);
     }

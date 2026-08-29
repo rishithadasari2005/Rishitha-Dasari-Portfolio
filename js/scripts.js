@@ -85,11 +85,7 @@ window.initThemeToggle = function() {
     const body = document.body;
 
     const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'light-mode') {
-        body.classList.add('light-mode');
-    } else {
-        body.classList.remove('light-mode');
-    }
+    body.classList.toggle('light-mode', savedTheme !== 'dark-mode');
 
     if (themeToggleBtn) {
         const newBtn = themeToggleBtn.cloneNode(true);
