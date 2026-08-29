@@ -1,30 +1,27 @@
-# Trần Hữu Đạt - Personal Portfolio 2025
+# Rishitha Dasari - Personal Portfolio 2025
 
-![Trần Hữu Đạt Portfolio Banner](assets/profile.PNG) <!-- THAY THẾ bằng ảnh chụp màn hình trang chủ portfolio mới của bạn -->
+![Rishitha Dasari Portfolio Banner](assets/profile.PNG)
 
-Welcome to the source code repository for my personal portfolio website, meticulously redesigned for 2025. This site acts as a dynamic showcase of my skills, featured projects, and professional journey. It features a modern, dark-themed, single-page design enhanced with fluid animations and rich interactive elements to provide an immersive user experience.
+Welcome to the source code repository for my personal portfolio website, meticulously redesigned for 2025. This site acts as a dynamic showcase of my skills, featured projects, and professional journey. It features a modern, light-themed by default, single-page design enhanced with fluid animations and rich interactive elements to provide an immersive user experience.
 
 <p align="center">
-  <a href="https://github.com/TranHuuDat2004" target="_blank">
-    <img src="https://img.shields.io/badge/GITHUB-TranHuuDat2004-purple?style=for-the-badge&logo=github&logoColor=white" alt="Author: TranHuuDat2004"/>
+  <a href="https://github.com/rishithadasari2005" target="_blank">
+    <img src="https://img.shields.io/badge/GITHUB-rishithadasari2005-purple?style=for-the-badge&logo=github&logoColor=white" alt="Author: rishithadasari2005"/>
   </a>
-  <a href="https://tranhuudat2004.github.io/" target="_blank">
+  <a href="https://rishithadasari2005.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel" alt="Live Demo"/>
   </a>
-  <a href="https://github.com/TranHuuDat2004/tranhuudat2004.github.io/releases/latest" target="_blank">
-    <img src="https://img.shields.io/github/v/release/TranHuuDat2004/tranhuudat2004.github.io?style=for-the-badge&logo=github" alt="Latest Release"/>
+  <a href="https://github.com/rishithadasari2005/Rishitha-Dasari-Portfolio" target="_blank">
+    <img src="https://img.shields.io/badge/REPOSITORY-Portfolio-blue?style=for-the-badge&logo=github" alt="Portfolio Repository"/>
   </a>
-  <!-- <a href="https://github.com/TranHuuDat2004/Galactic-Guardian" target="_blank">
-    <img src="https://img.shields.io/github/repo-size/TranHuuDat2004/tranhuudat2004.github.io?style=for-the-badge&logo=github" alt="GitHub repo size"/>
-  </a> -->
 </p>
 
 ## ✨ Key Features
 
 This portfolio has been rebuilt from the ground up to incorporate modern web features:
 
-*   **🎨 Modern Dark-Themed UI:** A sleek, visually appealing dark mode interface that's easy on the eyes and highlights content effectively.
-*   **💡 Light/Dark Mode Toggle:** Users can seamlessly switch between dark and light themes. Their preference is automatically saved in `localStorage` for future visits.
+*   **🎨 Modern Light-Themed UI (Default):** A sleek, visually appealing light mode interface as the default theme, easy on the eyes and highlights content effectively. A dark theme is also available.
+*   **💡 Light/Dark Mode Toggle:** Users can seamlessly switch between light and dark themes via the hamburger menu. Their preference is automatically saved in `localStorage` for future visits.
 *   **🚀 Single-Page Architecture:** A smooth, continuous scrolling experience with all sections accessible from a single page (`index.html`), enhanced by an auto-hiding sticky header.
 *   **📜 Dynamic Content & Animations:**
     *   **Scroll-Triggered Animations:** Elements gracefully fade and slide into view as the user scrolls down the page, powered by `IntersectionObserver`.
@@ -52,16 +49,16 @@ This portfolio has been rebuilt from the ground up to incorporate modern web fea
 ## 🚀 How to View / Local Setup
 
 1.  **Live Site:**
-    *   The portfolio is live at: [https://tranhuudat2004.github.io/](https://tranhuudat2004.github.io/)
+    *   The portfolio is live at: [https://rishithadasari2005.github.io/](https://rishithadasari2005.github.io/)
 
 2.  **Local Setup:**
     *   Clone this repository:
         ```bash
-        git clone https://github.com/TranHuuDat2004/tranhuudat2004.github.io.git
+        git clone https://github.com/rishithadasari2005/Rishitha-Dasari-Portfolio.git
         ```
     *   Navigate into the cloned directory:
         ```bash
-        cd tranhuudat2004.github.io
+        cd Rishitha-Dasari-Portfolio
         ```
     *   Open `index.html` directly in your web browser. No special build steps are required.
 
@@ -73,8 +70,8 @@ This portfolio has been rebuilt from the ground up to incorporate modern web fea
 
 ## 👤 Author & Contact
 
-*   **Trần Hữu Đạt**
-    *   **GitHub:** [@TranHuuDat2004](https://github.com/TranHuuDat2004)
+*   **Rishitha Dasari**
+    *   **GitHub:** [@rishithadasari2005](https://github.com/rishithadasari2005)
     *   **LinkedIn:** [linkedin.com/in/rishithadasari](https://www.linkedin.com/in/rishithadasari)
     *   **Email:** `dasaririshithapatel.6@gmail.com`
 
